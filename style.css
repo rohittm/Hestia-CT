@@ -1,11 +1,212 @@
+@charset "UTF-8";
 /*
-Theme Name: Hestia CT
-Theme URI: https://wordpress.org/themes/hestia-ct/
+Theme Name: Hestia Moments
+Description: Hestia Moments is a child theme for events related websites. Hestia is a modern material design theme, obviously responsive with a clean design and lots of options.
 Author: ThemeIsle
-Author URI: https://themeisle.com/
-Description: A child theme of theme Hestia (https://themeisle.com/themes/hestia/).
-Version: 0.1
+Author URI: https://themeisle.com
 Template: hestia
-Hestia CT WordPress Theme, Copyright (C) 2018, ThemeIsle
-Hestia CT is distributed under the terms of the GNU GPL
+Version: 1.0.0
+Tags: blog, custom-logo, e-commerce, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, holiday, sticky-post, theme-options, threaded-comments, translation-ready
 */
+
+.header-filter.header-filter-gradient {
+    background: linear-gradient(343deg, #74d7bf 0, #072460 90%);
+}
+
+.header-small .hestia-title {
+    position: relative;
+    z-index: 1;
+}
+
+.card-profile .card-image {
+    border-radius: 50%;
+}
+
+.card-testimonial .card-avatar img {
+    border-radius: 5px;
+}
+
+.btn.btn-primary {
+    border-radius: 25px;
+}
+
+.card .card-image {
+    margin-top: 15px;
+}
+
+.card-contact .header {
+    margin-top: 15px;
+}
+
+.hestia-testimonials {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  .hestia-testimonials .hestia-title {
+    color: #444444;
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 42px;
+  }
+  .hestia-testimonials .description {
+    color: #9A9A9A;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0;
+  }
+  .hestia-testimonials .hestia-testimonials-content {
+    margin: 30px 0 0;
+  }
+  
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial {
+    text-align: left;
+    padding: 20px 20px 0;
+    -webkit-box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -moz-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -ms-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -o-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial .card-avatar {
+    margin: auto;
+    margin-top: -40px;
+    max-width: 60px;
+    max-height: 60px;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial .card-avatar img {
+    margin: 0 0 -20px;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial .content .card-title {
+    font-weight: 600;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial .content .category {
+    font-weight: 300;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial .content .card-description {
+    font-family: inherit;
+    font-weight: 300;
+  }
+  .hestia-testimonials .hestia-testimonials-content .card-testimonial:hover {
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .home .hestia-blogs {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+  }
+  .home .hestia-blogs .hestia-title {
+    color: #444444;
+    font-size: 39px;
+    font-weight: 300;
+    line-height: 41px;
+  }
+  .home .hestia-blogs .description {
+    color: #9A9A9A;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0;
+  }
+  .home .hestia-blogs .hestia-blog-content {
+    margin: 60px 0 0;
+    padding: 0;
+  }
+  
+  .home .hestia-blogs .hestia-blog-content .card-blog {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background-color: #fff;
+    margin: 5px 0 20px;
+    text-align: center;
+    -webkit-box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+    -webkit-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -moz-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -ms-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    -o-transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+    transition: 300ms cubic-bezier(0.34, 2, 0.6, 1), box-shadow 200ms ease;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .card-image {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-border-radius: 12px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius: 12px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-radius: 12px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .card-image a {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .card-image a img {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .content {
+    text-align: left;
+    padding: 20px;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .content .category {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 10px 0 0;
+    margin: 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .content .card-title {
+    color: #444444;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 5px 0 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .content .card-description {
+    color: #9A9A9A;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 15px 0 5px;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog .content .card-description .moretag {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #51cbce;
+    border-color: #51cbce;
+    color: #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.75;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 20px;
+    display: block;
+    max-width: 133px;
+    margin: 20px auto 0 0;
+  }
+  .home .hestia-blogs .hestia-blog-content .card-blog:hover {
+    -webkit-box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 19px -7px rgba(0, 0, 0, 0.3);
+  }
