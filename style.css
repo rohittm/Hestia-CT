@@ -20,6 +20,10 @@ Tags: blog, custom-logo, e-commerce, post-formats, grid-layout, one-column, two-
 
 .card-profile .card-image {
     border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    margin: auto;
+
 }
 
 .card-testimonial .card-avatar img {
